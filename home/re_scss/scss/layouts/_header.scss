@@ -1,0 +1,47 @@
+#header {
+    max-width: 1190px;
+	padding: 0 20px;
+	margin: 0 auto;
+    .hold {
+        @include flex(flex, wrap, center, space-between);
+        @include media ('<=desktop'){
+            display: flex;
+            flex-wrap: nowrap;
+            padding: 0;
+            background-color: blue;;
+        }
+    }
+    .logo {
+        max-width: 50px;
+        flex-basis: 50px;
+
+        @include media ('>=desktop'){
+            max-width: 80px;
+            flex-basis: 80px;
+        }
+    }
+}
+.nav-drop{
+    padding-left: 150px;
+    .main-menu {
+        @extend %listreset;
+        @include flex(flex, wrap, center, flex-start);
+        flex: 1;
+        li {
+            padding: 0 20px;
+            font-size: $rem-base;
+        }
+        a {
+            color: $ebony-clay;
+            text-decoration: none;
+            font-weight: $h2-font-weight;
+
+            &:hover {
+                color: $btn-background;
+                text-decoration: underline;
+                font-weight: $h2-font-weight;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,75 @@
+$emirald : #43cb83;
+$navada : #5a6e79;
+$selago: #f1e3fc;
+$foam: #e3fcfa;
+$old-lace: #fcf0e3;
+$orinoco :#f3fce3;
+$yellow : #ffba00;
+$ebony-clay: #252c3a;
+$black: #000;
+$white: #fff;
+$wild-watermelon: #ff5f72;
+
+
+$base-font-sans-serif: 'Montserrat', 'Work Sans', 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif ;
+
+// This is the default html and body font-size for the base rem value.
+$rem-base: 16px; 
+
+// Body
+$base-text-color: $emirald !default;
+$base-background-color: $white !default;
+$font-size-base: 17.97px !default;
+$line-height-base: 1.4 !default;
+$base-font-family: $base-font-sans-serif !default;
+
+$vertical-rhythm: ($line-height-base * 1em);
+
+$base-min-width: 320px;
+
+// Liks
+$base-link-color: $emirald;
+
+// Buttons 
+$btn-color: $white !default;
+$btn-background: $emirald !default;
+$btn-padding: 8px 16px !default;
+$btn-font-size: inherit !default;
+
+// Forms
+$form-element-padding: 8px 16px !default;
+$form-bg-color: $yellow;
+$form-border-color: $yellow;
+
+// Headers
+$h1-font-size: 40px !default;
+$h1-font-size-m: 24px;
+$h1-font-size-sm: 20px !default;
+$h2-font-size: 30px !default;
+$h2-font-size-m: 20px;
+$h2-font-size-sm: 15px !default;
+
+
+$headings-font-family: $base-font-sans-serif !default;
+$headings-color: $emirald !default;
+$headings-font-weight: 600;
+$h2-font-weight: 700;
+
+
+$animation-speed: 0.3s;
+
+// $icomoon-font-family: "icomoon" !default;
+// $icomoon-font-path: "fonts" !default;
+
+// $icon-message: "\e900";
+// $icon-heart: "\e9da";
+// $icon-play: "\ea15";
+// $icon-facebook: "\ea90";
+// $icon-instagram: "\ea92";
+// $icon-twitter: "\ea96";
+// $icon-github: "\eab0";
+// $icon-apple: "\eabe";
+// $icon-skype: "\eac5";
+// $icon-linkedin: "\eaca";
+// $icon-pinterest: "\ead1";
+

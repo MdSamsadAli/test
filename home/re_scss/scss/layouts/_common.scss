@@ -1,0 +1,31 @@
+.holder {
+    max-width: 1180px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.btn {
+    @include animate (color background-color);
+    background-color: transparent;
+    color: $emirald;
+    padding: $btn-padding;
+    font-size: 15px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+
+    &:hover {
+        background-color: $btn-background;
+        color: $btn-color;
+    }
+}
+.btn-2 {
+    @include animate (color background-color);
+    @extend .btn;
+    background-color: $btn-background;
+    color: $btn-color;
+
+    &:hover {
+        background-color: transparent;
+        color: $btn-background;
+    }
+}
